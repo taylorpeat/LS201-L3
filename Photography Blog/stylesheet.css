@@ -1,0 +1,88 @@
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+
+body {
+  font: normal 18px "Roboto Condensed", sans-serif;
+  background-image: linear-gradient(to bottom, #d1dbbd, #fcfff5);
+  background-repeat: no-repeat;
+  color: #3e606f;
+  width: 960px;
+  margin: 20px auto 50px auto;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 0 20px;
+}
+
+h1 {
+  background: transparent url("icon.png") 0 0 no-repeat;
+  font-size: 36px;
+  padding: 50px 0 20px 112px;
+  color: #193441;
+  float: left;
+}
+
+nav {
+  padding-top: 75px;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+}
+
+header a {
+  padding-top: 10px;
+  margin-left: 1px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  background-color: #fff;
+  width: 135px;
+  height: 35px;
+  display: block;
+  text-decoration: none;
+  color: #91aa9d;
+}
+
+header li a.active {
+  color: #fcfff5;
+  background-color: #91aa9d;
+}
+
+header:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+main {
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 8px 10px #b5b5b5;
+}
+
+figure {
+  display: block;
+  float: right;
+  padding: 20px 0 20px 30px;
+}
+
+article:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+h2 {
+  margin: 36px 0;
+  font-size: 32px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+footer {
+  padding-top: 13px;
+  font-size: 14px;
+}
