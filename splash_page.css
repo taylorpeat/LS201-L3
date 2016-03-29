@@ -1,0 +1,47 @@
+body {
+  background-image: url("company_splash_page/bg_body.gif");
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #45494d;
+  background-color: #2f2840;
+  max-width: 1000px;
+  min-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 85px 0 50px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #3e98b2;
+}
+
+main {
+  background-color: #fff;
+  padding: 20px 110px 50px 110px;
+  box-sizing: border-box;
+}
+
+article {
+  padding: 50px 0;
+}
+
+footer {
+  background-color: #e7e7e7;
+  height: 100px;
+  margin: 0 0 50px 0;
+  padding: 10px;
+}
+
+li {
+  display: inline-block;
+  width: 20%;
+}
